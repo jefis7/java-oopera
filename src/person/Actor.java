@@ -18,11 +18,13 @@ public class Actor extends Person {
         this.height = height;
     }
 
+    @Override
     public String toString() {
         String var10000 = this.name;
         return "Actor{name='" + var10000 + "', surname='" + this.surname + "', gender=" + String.valueOf(this.gender) + "', height=" + this.height + "}";
     }
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) {
             return true;
@@ -34,6 +36,7 @@ public class Actor extends Person {
         }
     }
 
+    @Override
     public int hashCode() {
         int hash = 17;
         hash += super.name != null ? super.name.hashCode() : 0;

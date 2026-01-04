@@ -16,6 +16,7 @@ public class Director extends Person {
         this.numberOfShows = numberOfShows;
     }
 
+    @Override
     public String toString() {
         String var10000 = this.name;
         return "Director{name='" + var10000 + "', surname='" + this.surname + "', gender=" + String.valueOf(this.gender) + "', numberOfShows=" + this.numberOfShows + "}";

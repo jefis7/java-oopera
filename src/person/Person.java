@@ -35,6 +35,7 @@ public class Person {
         this.gender = gender;
     }
 
+    @Override
     public String toString() {
         String var10000 = this.name;
         return "Person{name='" + var10000 + "', surname='" + this.surname + "', gender=" + String.valueOf(this.gender) + "}";
